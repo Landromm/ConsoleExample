@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortEx1", "BubbleSort
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShakerSortEx1", "ShakerSortEx1\ShakerSortEx1.csproj", "{6119DD48-6C06-440A-8B18-70FBE524A070}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortedMethods", "SortedMethods", "{52ABDC67-2C28-4B3D-81BD-685FADAD36DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EncryptMethods", "EncryptMethods", "{3816A42D-B2F4-4153-B0FD-768F0B8BE53F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtbashEncrypt", "AtbashEncrypt\AtbashEncrypt.csproj", "{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,9 +75,26 @@ Global
 		{6119DD48-6C06-440A-8B18-70FBE524A070}.Release|x64.Build.0 = Release|Any CPU
 		{6119DD48-6C06-440A-8B18-70FBE524A070}.Release|x86.ActiveCfg = Release|Any CPU
 		{6119DD48-6C06-440A-8B18-70FBE524A070}.Release|x86.Build.0 = Release|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Debug|x64.Build.0 = Debug|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Debug|x86.Build.0 = Debug|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Release|x64.ActiveCfg = Release|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Release|x64.Build.0 = Release|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Release|x86.ActiveCfg = Release|Any CPU
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC22CAF6-C1C6-4716-8C14-EBCDF91FA0C0} = {52ABDC67-2C28-4B3D-81BD-685FADAD36DE}
+		{6119DD48-6C06-440A-8B18-70FBE524A070} = {52ABDC67-2C28-4B3D-81BD-685FADAD36DE}
+		{7A8D89E6-D4DB-4619-885D-6EFCBCCE6FF0} = {3816A42D-B2F4-4153-B0FD-768F0B8BE53F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {273A98C7-6912-4E30-AABA-C3832658D324}
