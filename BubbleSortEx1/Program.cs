@@ -2,7 +2,7 @@
 Console.WriteLine("---->| Сортировка пузырьком |<-----");
 Console.Write("Введите элементы массива: ");
 
-var parts = Console.ReadLine().Split(
+var parts = Console.ReadLine()!.Split(
     new[] { " ", ",", ";" }, 
     StringSplitOptions.RemoveEmptyEntries);
 
